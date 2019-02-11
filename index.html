@@ -4,10 +4,38 @@
     <style>
       @import url('https://fonts.googleapis.com/css?family=Roboto');
       *{margin: 50 auto; text-align: center; font-family: 'Roboto', sans-serif;}
+      body {
+        background-color: #fff;
+      }
+      .bg  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .path {
+        animation: draw 3.5s infinite;
+      }
+       @keyframes draw {
+        50% {
+          stroke-dashoffset: 0;
+        }
+      }
+      footer{
+        bottom: 0px;
+      }
     </style>
   </head>
   <body>
     <h1>Redesigning|Rebuilding...<br></h1><hr>
-    <h5>&copy; 2018 JoshuaEduards<br> All Rights Reserved.</h5>
+    <center>
+    <div class="bg">  
+         <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 200">
+        <path class="path" stroke="darkblue" stroke-width="3" stroke-linejoin="square" stroke-linecap="square" stroke-miterlimit="5" stroke-dasharray="800" stroke-dashoffset="800" fill="none" d="M 170 105 L 190 135 L 200 110 L 210 145 L 235 95 L 235 145 L 280 90 L 290 135 L 260 125 ">
+      </div>
+    </center>
+    <footer>
+      <h5>&copy; 2018 JoshuaEduards<br> All Rights Reserved.</h5>
+    </footer>
   </body>
 </html>
