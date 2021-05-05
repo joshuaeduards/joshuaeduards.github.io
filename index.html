@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <title>Joshua Eduards Dulatre</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+    <body>
+        <style>
+            @media only screen and (min-width: 0px) and (max-width: 493px){
+                .menu-links li{
+                    display: block !important;
+                    padding: 5px;
+                }
+                .social-links li{
+                    display: block !important;
+                    padding: 5px;
+                }
+                .header{
+                    height: inherit !important;   
+                }
+                .home-content-description h1{
+                    font-size: 35px !important; 
+                }
+            }
+            body{
+                background-color: /*#2F4F4F*/#141414;
+            }
+            /*--------------HEADER*/
+            .header{
+                height: 80px;
+                background: /*#253d3d*/ black;
+                color: aliceblue;
+                font-family: verdana;
+
+            }
+            .social-links{
+                float: left;
+                margin-top: 20px;
+            }
+            .social-links li{
+                display: inline-block;
+                margin-left: 5px;
+            }
+            .social-links img{
+                height: 30px;
+                width: 30px;
+                margin-top: 5px;
+            }
+            .menu-links{
+                float: right;
+                margin-top: 30px;
+                margin-right: 40px;
+            }
+            .menu-links li{
+                display: inline-block;
+                margin-right: 5px;
+            }
+            .menu-links li a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            .menu-links li a:hover{
+                color: grey;
+                transition: .5s;
+            }
+            /*--------------HOME*/
+            .home{
+                height: 600px;
+                background: /*#2F4F4F*/#141414;
+                box-shadow: 0px 4px 20px 1px black;
+            }
+            .home-content{
+                background: /*#2F4F4F*/#141414;
+                margin-top: 100px;
+                border-radius: 15px;
+                box-shadow: 0px 4px 20px 1px black;
+                font-family: verdana;
+                
+            }
+            .home-content-logo img{
+                height: 250px; width: 250px;
+                margin: 0 auto;
+                padding: 10px;
+            }
+            .home-content-description h1{
+                text-align: center;
+                color: aliceblue;
+                font-size: 50px;
+                padding: 10px;
+                font-family: verdana;
+            }
+            .home-content-description{
+                margin-top: 15px;
+            }
+            /*--------------ABOUT*/
+            .about{
+                height: 610px;
+                background: /*#2F4F4F*/#141414;
+                border-radius: 15px 15px 0 0;
+                box-shadow: 0px 4px 20px 1px black;
+                margin-top: -15px;
+                font-family: verdana;
+                color: aliceblue;
+                
+            }
+            .about-content{
+                margin-top: 60px;
+            }
+            .about-content h4{
+                font-family: verdana;
+            }
+            .about-content img{
+                height: 200px; width: 200px;
+                margin: 0 auto;
+            }
+            /*--------------WORK*/
+            .work{
+                height: 500px;
+                background: /*#2F4F4F*/#141414;
+                border-radius: 15px 15px 0 0;
+                box-shadow: 0px 4px 20px 1px black;
+                margin-top: -15px;
+                font-family: verdana;
+                color: aliceblue;
+            }
+            .work-content{
+                margin-top: 60px;
+            }
+            .work h2{
+                font-family: verdana;
+            }
+            .work a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+            .work a:hover{
+              color: grey;
+              transition: .5s;
+            }
+            /*--------------CONTACT*/
+            .contact{
+                height: 500px;
+                background: /*#2F4F4F*/#141414;
+                border-radius: 15px 15px 0 0;
+                box-shadow: 0px 4px 20px 1px black;
+                margin-top: -15px;
+                font-family: verdana;
+                color: aliceblue;
+            }
+            .contact-content{
+                margin-top: 60px;
+            }
+            
+            /*--------------FOOTER*/
+            .footer{
+                height: 150px;
+                background: /*#253d3d*/black;
+                color: aliceblue;
+            }
+            .footer ul li{
+                display: inline-block;
+            }
+            .footer h4{
+                font-family: verdana;
+            }
+            .footer h5{
+                font-family: verdana;
+            }
+            .footer a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            .footer ul{
+                margin-top: 30px;
+            }
+        </style>
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" >
+                    <nav>
+                        <ul class="social-links">
+                            <li><a href="https://www.instagram.com/joshuaeduards/?hl=en"><img src="ig-logo.png" class="ig"/></a></li>
+                            <li><a href="https://www.linkedin.com/in/joshua-eduards-s-dulatre-aba750137/" class="li"><img src="li-logo.png"/></a></li>
+                            <li><a href="https://github.com/JESDslnt"><img src="gh-logo.png" class="gh"/></a></li>
+                        </ul>
+                   
+                        <ul class="menu-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container home" id="home">
+            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center home-content">
+                <div class="row item" data-aos="fade-down"> 
+                        <div class="col-md-5 col-lg-5 home-content-logo">
+                            <img src="JDLOGOlight.png" class="img-responsive"/>
+                        </div>
+                        <div class="col-md-7 col-lg-7 home-content-description">
+                            <h1 class="text-center">JOSHUA EDUARDS DULATRE</h1>       
+                        </div>
+                </div> 
+            </div>
+        </div>
+        
+        <div class="container about" id="about">
+            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center about-content">
+                <div class="row item" data-aos="fade-up">
+                    <h1 class="text-center">About Me</h1>
+                    <hr/>
+                    <div class="col-md-6 col-lg-6">
+                        <h4>Hi! I'm a Computer Engineering fresh grad from La Union, PH.</h4>
+                        <h4>I'm a hardworking individual with a creative mind and I like learning new things that can develop my skills and knowledge.</h4>
+                        <h4>I love taking pictures with my smartphone, watching series, designing and surfing the net.</h4>
+                    </div>
+                        
+                    <div class="col-md-6 col-lg-6">
+                        <img src="jd.jpg" class="img-responsive"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+               
+        <div class="container work" id="work">
+            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center work-content">
+                <div class="row">
+                    <h1 class="text-center">Work</h1>
+                    <hr/>
+                     <div class="col-md-3 col-lg-3 item" data-aos="fade-up">
+                       <a href="#" target="_blank"><h3>My Portfolio</h3></a>
+                        <a href="https://codepen.io/JoshuaED/project/full/XpvORw/" target="_blank"><h3>Software Company Template</h3></a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 item" data-aos="fade-up">
+                        <a href="https://codepen.io/JoshuaED/full/NazpoV/" target="_blank"><h3>Real Estate Template</h3></a>
+                        <a href="https://codepen.io/JoshuaED/full/QqzMKE/" target="_blank"><h3>Line Hover Animations</h3></a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 item" data-aos="fade-up">
+                      <a href="https://codepen.io/JoshuaED/full/QqBeaV/" target="_blank"><h3>Music Band Template</h3></a>
+                      <a href="https://codepen.io/JoshuaED/full/KXJYQM/" target="_blank"><h3>Blogger Template (WIP)</h3></a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 item" data-aos="fade-up">
+                      <a href="https://codepen.io/JoshuaED/full/XePGeV/" target="_blank"><h3>Black and White Portfolio Template</h3></a>
+                      <a href="https://codepen.io/JoshuaED/full/PJvwwQ/" target="_blank"><h3>Hamburger Menu</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container contact" id="contact">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center contact-content">
+                    <div class="row">
+                        <h2>Shoot me an Email?</h2>
+                        <hr/>
+                        <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 item" data-aos="fade-up">    
+                            <form action="emailto:dulatre.joshuaeduards@gmail.com" method="post">
+                                <div class="form-group"> 
+                                    <lavel>Name</lavel>
+                                    <input type="text" placeholder="Enter your name"  class="form-control"/>
+                                </div>
+                        
+                                <div class="form-group"> 
+                                    <lavel>Email</lavel>
+                                    <input type="email" placeholder="Enter your email" class="form-control"/>
+                                </div>
+                        
+                                <div class="form-group"> 
+                                    <lavel>Message</lavel>
+                                    <input type="textarea" placeholder="Compose your message" class="form-control"/>
+                                </div>
+                                    <input type="button" value="Send" style="color: black; width: 80px; border-radius: 5px;" class="btn"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="container-fluid footer">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+                    <ul>
+                        <li><h4>Powered by:</h4></li>
+                        <li><a href="">BOOTSTRAP</a></li> |
+                        <li><a href="">AOS</a></li>
+                        <h5>&copy; 2017 JoshuaEduardsDulatre</h5>
+                    </ul>
+                </div>
+        </div>
+        
+        <script type="text/javascript">
+            AOS.init({
+                duration: 1500,
+            });
+        </script>
+    </body>
+</html>
+    
